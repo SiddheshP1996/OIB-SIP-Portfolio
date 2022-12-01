@@ -18,7 +18,7 @@ $(document).ready(function(){
 
   });
 
-  // smooth scrolling 
+  // smooth scrolling
 
   $('a[href*="#"]').on('click',function(e){
 
@@ -29,7 +29,7 @@ $(document).ready(function(){
       scrollTop : $($(this).attr('href')).offset().top,
 
     },
-      500, 
+      500,
       'linear'
     );
 
